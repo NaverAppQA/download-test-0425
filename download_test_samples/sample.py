@@ -1,1 +1,1 @@
-print('Hello, world!')
+print('이것은 Python 샘플입니다')
