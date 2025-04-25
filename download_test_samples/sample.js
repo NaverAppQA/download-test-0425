@@ -1,1 +1,1 @@
-console.log('이것은 JS 샘플입니다');
+console.log('JS 샘플');
