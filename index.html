@@ -2,7 +2,7 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
-  <title>파일 다운로드 테스트</title>
+  <title>4085 스펙 적용되어 다운로드됨</title>
 </head>
 <body>
   <h1>파일 다운로드 테스트</h1>
@@ -64,4 +64,31 @@
     
   </ol>
 </body>
+
+<head>
+  <meta charset="UTF-8">
+  <title>4085 스펙 적용되지 않음</title>
+</head>
+<body>
+  <h1>파일 다운로드 테스트</h1>
+  <ol>
+    <li>
+  <a href="download_test_samples/sample.bmp" download="download_test_samples/sample.bmp">.bmp(Fail, 인앱으로 열림)</a>
+    </li>
+    <li>
+      미디어 파일:
+      <a href="download_test_samples/sample.mp3" download="download_test_samples/sample.mp3">.mp3(Fail, 파일이 자동 재생됨)</a>
+      <a href="download_test_samples/sample.wav" download="download_test_samples/sample.wav">.wav(Fail, 파일이 자동 재생됨)</a>
+    </li>
+    <li>
+      웹/스크립트 파일:
+      <a href="download_test_samples/sample.css" download="download_test_samples/sample.css">.css(Fail, 인앱으로 열림)</a>,
+      <a href="download_test_samples/sample.js" download="download_test_samples/sample.js">.js(Fail, 인앱으로 열림)</a>,
+      <a href="download_test_samples/sample.py" download="download_test_samples/sample.py">.py(Fail, 인앱으로 열림)</a>,
+      <a href="download_test_samples/sample.json" download="download_test_samples/sample.json">.json(Fail, 인앱으로 열림)</a>,
+    </li>
+    
+  </ol>
+</body>
+  
 </html>
